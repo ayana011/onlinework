@@ -1,0 +1,62 @@
+.row
+    @include df
+    align-items: flex-end
+    margin-bottom: 60px
+.block-courses_title
+    @include title
+.block-courses_btn_all-course
+    @include btnwithborder
+
+.block-courses_row
+    @include df
+
+%courses__col-1
+    width: 30%
+    padding: 40px
+    border-radius: 10px
+
+    img
+        width: 50px
+        height: 50px
+        border-radius: 50%
+        margin-bottom: 20px
+    h3
+        font-size: 24px
+        color: #232323
+        font-weight: 700
+        margin-bottom: 20px
+
+    .block-courses__col_info-course
+        margin-bottom: 20px
+        color: #585858
+
+        span
+            color: #232323
+            font-weight: 700
+.block-courses__col-price-learn-more
+    display: flex
+    justify-content: space-between
+
+    a
+        font-weight: 600
+        color: #78258D
+    p
+        font-size: 20px
+        font-weight: 700
+        color: #333333
+
+.block-courses__col-1
+    @extend  %courses__col-1
+    background: #def1ff
+
+.block-courses__col-2
+    @extend  %courses__col-1
+    background: #fdede4
+
+.block-courses__col-3
+    @extend  %courses__col-1
+    background: #EFEFFF
+
+
+       
+
